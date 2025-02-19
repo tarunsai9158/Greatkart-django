@@ -158,4 +158,4 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'tarunpeela1@gmail.com'  # Replace with your Gmail
-EMAIL_HOST_PASSWORD = 'mdmz fcxk zohm tlvq'  # Replace with your App Password
+EMAIL_HOST_PASSWORD = 'nexx hyto flqh nhle'  # Replace with your App Password
