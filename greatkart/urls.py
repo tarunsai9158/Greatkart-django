@@ -18,11 +18,12 @@ from django.contrib import admin
 from django.urls import path, include
 from .views import home
 from django.conf.urls.static import static
-from . import settings
+from django.conf import settings
 from store.views import *
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    # path('admin/',include('admin_honeypot.urls', namespace='admin_honeypot')),
+    path('secure_admin/', admin.site.urls),
     path('',home, name='home'),
     path('store/', include('store.urls')),
     path('cart/', include('cart.urls')),
